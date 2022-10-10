@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "djangocrud.api.models.Movie",
+
+
+
 ]
 
 MIDDLEWARE = [
