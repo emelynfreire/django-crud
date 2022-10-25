@@ -38,7 +38,7 @@ python manage.py runserver
 
 ## 6. Criação app
 
-"" $ django-admin startapp core ""
+''' $ django-admin startapp core '''
 
 
 
