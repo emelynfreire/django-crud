@@ -1,13 +1,12 @@
-#CRIANDO PROJETO DJANGO
+Django é um framework para desenvolvimento em Python, nisso para a criação de um projeto e configuração utiliza-se os seguintes passos.
 
-## 0 Instalar python
+## 1. Criar ambiente virtual:
 
-## 1. criar ambiente virtual:
-
-Na pasta dp projeto:
+Na pasta do projeto:
 o VENV tem a responsabilidade de isolar o projeto do sistema operacional.
 
 para criação do ambiente:
+
 
 python -m venv nome_da_venv
 
@@ -33,7 +32,9 @@ Dentro da pasta nome_projeto vai tá as configurações do projeto django execut
 python manage.py migrate
 
 ## 5. para rodar o sistema:
+```
 python manage.py runserver
+```
 
 
 ## 6. Criação app
