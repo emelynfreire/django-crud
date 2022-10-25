@@ -57,19 +57,20 @@ python manage.py runserver
 django-admin startapp core 
 ```
 Toda vez que criar um app adicionar no INSTALLED_APPS da settings.py principal do projeto.
+Exemplo: <br>
+INSTALLED_APPS = [<br>
+    'django.contrib.admin',<br>
+    'django.contrib.auth',<br>
+    'django.contrib.contenttypes',<br>
+    'django.contrib.sessions',<br>
+    'django.contrib.messages',<br>
+    'django.contrib.staticfiles',<br>
+    ``` 'core',``` <br>
+]<br>
 
 ## 7. Criação usuário super-admin
 Nisso agora criaremos um usuário super admin pra ter acesso ao sistema:
-Exemplo:
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    ``` 'core',``` 
-]
+
 
 
 ``` 
