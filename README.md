@@ -28,11 +28,20 @@ django-admin startproject nome_projeto . (o ponto final é pra ele não criar ou
 
 Dentro da pasta nome_projeto vai tá as configurações do projeto django execute.
 
-## 4. para rodar o sistema:
+
+## 4. Migração de configuração com banco de dado local sqlite3: banco com estrutura base, com tabelas com sessões e controles de usuários.
+python manage.py migrate
+
+## 5. para rodar o sistema:
 python manage.py runserver
 
-## 5. Migração de configuração com banco de dado local sqlite3: banco com estrutura base, com tabelas com sessões e controles de usuários.
-python manage.py migrate
+
+## 6. Criação app
+
+"" $ django-admin startapp core ""
+
+
+
 
 ## 6. Nisso agora criaremos um usuário super admin pra ter acesso ao sistema:
 python manage.py createsuperuser admin
@@ -44,4 +53,5 @@ Após isso executar projeto e no link: http://127.0.0.1:8000/admin/
 usuario:admin 
 senha:minhasenha123
 
-# Criação app - aplicação CRUD
+
+
